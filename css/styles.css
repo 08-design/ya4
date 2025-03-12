@@ -10,13 +10,17 @@ body {
 	color: #202030;
 	background-color: #f8f8fc;
 }
-
+.headers-names{font-style:bold;
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+color:#009FC6}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
     background-color: #e0f0ff;
 }
-
+.header-name{font-style:italic;
+font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+color: #001540}
 .resume-main {
 	background-color: #fffefc;
 }
@@ -48,4 +52,16 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+.language-level .language-progress {
+    background-color: #d05a0b !important; /* Change to your desired color */
+}
+ 
+.language-level  {
+    background-color: #4c61af !important; /* Change to your desired color */
+}
+.language-level {
+    border: 4px solid #ff00dd; /* Change to your desired border color */
+    border-color: #ff00dd !important;
+    border-radius: 0px; /* Optional: Add rounded corners */
 }

@@ -2,7 +2,7 @@
 <html class="h-100" lang="en">
   
   <!-- An HTML document always starts with a "head", i.e. information about the page that isn't directly visible -->
-  <head>
+  <head class="header-name">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -16,6 +16,7 @@
 
     <title>Yoana Lastname's Resumé</title>
   </head>
+
   <!-- End of the head -->
 
   <!-- Start of the body, which contains everything visible on the page -->
@@ -43,15 +44,15 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="images/portrait.svg" alt="Portrait of Firstname Lastname" width="160">
+          <img class="w-100 rounded-circle my-3" src="images/e6b1a1f3-69dd-4ac2-9f8f-0224f1bef2eb.JPG" alt="Portrait of Firstname Lastname" width="1066">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="fw-bolder">Yoana Anina</h1>
+          <h1 class="fw-bolder header-name">Yoana Anina</h1>
           <p>&nbsp;</p>
-<h5 class="fst-italic tagline">Your expert in creative marketing.</h5>
+<h5 class="fst-italic tagline">Creative director</h5>
         </div>
       </header>
 
@@ -70,7 +71,7 @@
           <!--
             <section> is yet another semantic element. The first one is for professional experience.
           -->
-          <section class="my-3 biography-section">
+          <section class="my-3 biography-section" headers-names>
             <h2>Professional Experience</h2>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
@@ -82,7 +83,7 @@
               <li class="biography-item row mb-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/projector.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/projector.svg" alt="Company logo" width="350">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Director , Production Company</h4>
@@ -92,7 +93,8 @@
                     <li>Coordinated shootings in studio and on location</li>
                     <li>Liaised with local authorities and with suppliers</li>
                     <li>Part of my studies at Breda University of Applied Sciences</li>
-                  </ul>
+                    <li>Part of my studies at Breda University of Applied Sciences</li>
+				  </ul>
                 </div>
               </li>
 
@@ -100,32 +102,36 @@
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/trolley.svg" alt="Company logo" width="80">
-                </div>
+                <img class="biography-logo mw-100 mx-auto" src="images/BGSB.png" alt="Company logo" width="1000">                </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Supermarket Employee, Supermarket chain</h4>
-                  <h5>2018</h5>
-                  <!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
+                  <h4>Head of Events, Bulgarian Society Breda</h4>
+                  <h5>2024 - now</h5>
+                  <ul class="biography-details list-unstyled">
+                    <li>Coordinating a team in event management</li>
+                    <li>Organising various cultural and social events </li>
+                    <li>Taking part in board meetings and conferences&nbsp; &nbsp;&nbsp;</li>
+            
+					</ul>
                 </div>
               </li>
 
-            </ul>
-          </section>
+
+                  <!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
 
           <!-- We're done with jobs, let's move on to schools -->
 
-          <section class="my-3 biography-section">
+  <section class="my-3 biography-section" headers-names>
             <h2>Education</h2>
             <ul class="biography-list list-unstyled">
 
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="School logo" width="120">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="School logo" width="350">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
-                  <h5>2018&nbsp;&ndash;&nbsp;now</h5>
+                  <h5>2023 –&nbsp;now</h5>
                   <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
                   <ul class="biography-details list-unstyled">
                     <li>Member of the student participation council</li>
@@ -138,13 +144,14 @@
               <!-- 2nd item in education -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/cropped-Asset-10@4x-1.png" alt="School logo" width="512">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>High School Diploma, City High School</h4>
-                  <h5>2018</h5>
+                  <h4>High School Diploma,&nbsp;91. German Language High School, Sofia</h4>
+                  <h5>2018 - 2023</h5>
                   <ul class="biography-details list-unstyled">
-                    <li>Audiovisual media specialization</li>
+                    <li>German language level C1</li>
+                    <li>Profile History and Literature&nbsp;</li>
                   </ul>
                 </div>
               </li>
@@ -185,9 +192,9 @@
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://github.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/github.svg" alt="LinkedIn">
-                  GitHub Profile
+                <a class="d-flex align-items-center" href="https://www.instagram.com/yoana_anina/" target="_blank">
+                  <img class="contact-icon" src="images/icons/instagram.svg" alt="LinkedIn">yoana_anina
+                  
                 </a>
               </li>
               <li class="contact-item"> </li>
@@ -240,8 +247,9 @@
           <section class="my-3 aside-section">
             <h2>Other Skills</h2>
             <ul class="skill-list list-unstyled">
+              <li class="skill-item">&nbsp;Creative cloud programmes&nbsp;</li>
+              <li class="skill-item">&nbsp;Figma</li>
               <li class="skill-item">Team player</li>
-              <li class="skill-item">Microsoft Office Power User</li>
               <li class="skill-item">Driving Licence</li>
             </ul>
           </section>
@@ -251,8 +259,9 @@
           <section class="my-3 aside-section">
             <h2>Interests &amp; Hobbies</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Formula 1 Driver</li>
-              <li class="skill-item">Netflix Binge-Watcher</li>
+              <li class="skill-item">Keen traveller&nbsp;</li>
+              <li class="skill-item">Theater-lover&nbsp;</li>
+              <li class="skill-item">Adventurer by soul&nbsp;</li>
             </ul>
           </section>
 
